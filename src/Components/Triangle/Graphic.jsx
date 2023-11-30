@@ -124,12 +124,12 @@ const Graphic = (props) => {
             context.font = "15px Arial";
             context.fillStyle = 'black';
 
-            context.fillText(triangle[0], (horizontalPoint - 60), (props.height / 2)); // Side 1
-            context.fillText(triangle[1], (props.width / 2 - 20), (verticalPoint + normSideLengths[0] + 60)); // Side 2
-            context.fillText(triangle[2], (horizontalPoint + normSideLengths[1] * 0.6), (verticalPoint + normSideLengths[0] * 0.4 - 10)); // Hypotenuse
+            context.fillText(Math.round(triangle[0] * 100) / 100, (horizontalPoint - 60), (props.height / 2)); // Side 1
+            context.fillText(Math.round(triangle[1] * 100) / 100, (props.width / 2 - 20), (verticalPoint + normSideLengths[0] + 60)); // Side 2
+            context.fillText(Math.round(triangle[2] * 100) / 100, (horizontalPoint + normSideLengths[1] * 0.6), (verticalPoint + normSideLengths[0] * 0.4 - 10)); // Hypotenuse
 
-            context.fillText(triangle[3] + "°", (horizontalPoint - 30), (verticalPoint - 30));
-            context.fillText(triangle[4] + "°", (horizontalPoint + normSideLengths[1] + 30), (verticalPoint + normSideLengths[0] + 30));
+            context.fillText(Math.round(triangle[3] * 10) / 10 + "°", (horizontalPoint - 30), (verticalPoint - 30));
+            context.fillText(Math.round(triangle[4] * 10) / 10 + "°", (horizontalPoint + normSideLengths[1] + 30), (verticalPoint + normSideLengths[0] + 30));
 
         } else if (graphicStatus === "error") {
 

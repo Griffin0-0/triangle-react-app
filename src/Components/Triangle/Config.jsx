@@ -19,9 +19,7 @@ function Config(props) {
                     </div>
 
                     <p className="config-info">
-                        Created by Griffin
-                        <br></br>
-                        Made using React
+                        Created by Griffin using React
                         <br></br>
                         Hosted on Vercel
                         <br></br>
