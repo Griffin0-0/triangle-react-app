@@ -100,12 +100,12 @@ function Calculate() {
                             <InputField 
                                 valueType="angle1"
                                 handleInputChange={handleInputChange}
-                                placeholderText="Angle 1"
+                                placeholderText="Angle 1 (Degrees)"
                             />
                             <InputField 
                                 valueType="angle2"
                                 handleInputChange={handleInputChange}
-                                placeholderText="Angle 2"
+                                placeholderText="Angle 2 (Degrees)"
                             />
                         </div>
                     </div>

@@ -128,8 +128,8 @@ const Graphic = (props) => {
             context.fillText(triangle[1], (props.width / 2 - 20), (verticalPoint + normSideLengths[0] + 60)); // Side 2
             context.fillText(triangle[2], (horizontalPoint + normSideLengths[1] * 0.6), (verticalPoint + normSideLengths[0] * 0.4 - 10)); // Hypotenuse
 
-            context.fillText(triangle[3], (horizontalPoint - 30), (verticalPoint - 30));
-            context.fillText(triangle[4], (horizontalPoint + normSideLengths[1] + 30), (verticalPoint + normSideLengths[0] + 30));
+            context.fillText(triangle[3] + "°", (horizontalPoint - 30), (verticalPoint - 30));
+            context.fillText(triangle[4] + "°", (horizontalPoint + normSideLengths[1] + 30), (verticalPoint + normSideLengths[0] + 30));
 
         } else if (graphicStatus === "error") {
 

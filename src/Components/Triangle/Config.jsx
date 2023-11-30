@@ -14,8 +14,8 @@ function Config(props) {
                         <p>Side 1: {props.values[0]}</p>
                         <p>Side 2: {props.values[1]}</p>
                         <p>Hypotenuse: {props.values[2]}</p>
-                        <p>Angle 1: {props.values[3]}</p>
-                        <p>Angle 2: {props.values[4]}</p>
+                        <p>Angle 1: {props.values[3]}°</p>
+                        <p>Angle 2: {props.values[4]}°</p>
                     </div>
 
                     <p className="config-info">
@@ -27,9 +27,9 @@ function Config(props) {
                         <br></br>
                         Progressive Web App
                     </p>
+
                 </div>
             </div>
-
         </div>
     );
 }
