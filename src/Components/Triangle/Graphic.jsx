@@ -158,7 +158,8 @@ const Graphic = (props) => {
 
             context.font = "20px Arial";
             context.fillStyle = 'black';
-            context.fillText("Enter at least 2 values to begin.", 110, 50, props.width - 20);
+            context.fillText("Enter at least 2 values to begin.", 110, 30, props.width - 20);
+            context.fillText("1 input must be a valid side length.", 95, 60, props.width - 20);
 
 
             context.beginPath();
