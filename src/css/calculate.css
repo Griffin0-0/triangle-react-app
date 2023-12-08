@@ -13,7 +13,13 @@
 .backButton {
     display: flex;
     align-items: center;
-    margin: 10px 0 0 10px;
+    margin: 20px 0 0 20px;
+}
+
+.install-button {
+    position: absolute;
+    right: 40px;
+    top: 20px;
 }
 
 .content-container {
@@ -31,7 +37,6 @@
 
 .main-panel {
     width: 600px;
-    text-align: center;
 }
 
 .component {
@@ -48,7 +53,7 @@
 }
 
 .input-container {
-    background-color: #c7d3eb;
+    background: linear-gradient(172deg, #c7d3eb, #9ab2e0);
     border-radius: 2px 2px 15px 15px;
     margin: 20px 0 30px 0;
     width: 500px;
@@ -80,10 +85,10 @@ input:focus {
 }
 
 .config-container {
-    background-color: #c7d3eb;
+    background: linear-gradient(172deg, #c7d3eb, #9ab2e0);
     border-radius: 15px;
     margin: 0 0 30px 20px;
-    width: 300px;
+    width: 350px;
 }
 
 .values p {
@@ -104,6 +109,7 @@ input:focus {
     .content {
         display: block;
         text-align: center;
+        width: 90%;
     }
     .config-container {
         margin: 0 0 30px 0; 
@@ -121,10 +127,11 @@ input:focus {
 @media only screen and (max-width: 740px) {
     .component {
         width: 400px;
+        padding: 1rem;
     }
     canvas {
-        width: 300px;
-        height: 300px;
+        width: 350px;
+        height: 350px;
     }
     iframe {
         width: 400px;
@@ -132,36 +139,48 @@ input:focus {
 }
 
 @media only screen and (max-width: 600px) {
+    .content {
+        width: 100%;
+    }
     .component {
-        width: 300px;
+        width: 380px;
+        padding: 20px;
     }
     .main-panel {
-        width: 400px;
-    }
-    canvas {
-        width: 200px;
-        height: 200px;
+        width: 440px;
     }
     iframe {
-        width: 300px;
+        width: 380px;
     }
 }
 
 @media only screen and (max-width: 440px) {
     .component {
-        width: 250px;
+        width: 320px;
     }
     .main-panel {
-        width: 350px;
+        width: 380px;
     }
     .content {
         width: 100%;
     }
     canvas {
-        width: 150px;
-        height: 150px;
+        width: 300px;
+        height: 300px;
     }
     iframe {
-        width: 250px;
+        width: 320px;
+    }
+
+    button {
+        padding: 15px 30px 15px 30px;
+        border: 2px solid #4895ef;
+        border-radius: 10px;
+        font-size: 1rem;
+    }
+    .backArrow {
+        height: 1rem;
+        padding-right: 10px;
+        fill: white;
     }
 }

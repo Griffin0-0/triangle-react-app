@@ -26,7 +26,7 @@ function Config(props) {
                         Progressive Web App
                     </p>
 
-                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeKjBhKbdJija7XJNcQyOGALVU-OrEW4zDtSrpyAeQYK8h5qg/viewform?embedded=true" width="300" height="400" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeKjBhKbdJija7XJNcQyOGALVU-OrEW4zDtSrpyAeQYK8h5qg/viewform?embedded=true" width="350" height="400" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
                 </div>
             </div>
         </div>
